@@ -1,0 +1,23 @@
+{
+  "name": "edupulse-school-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EduPulse - Full-Stack School Management System",
+  "scripts": {
+    "build": "npm run build --prefix client",
+    "client:dev": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "server:dev": "npm run dev --prefix server",
+    "server:start": "npm start --prefix server",
+    "install:all": "npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": [
+    "school-management",
+    "react",
+    "vite",
+    "express",
+    "mysql"
+  ],
+  "author": "Man",
+  "license": "ISC"
+}
